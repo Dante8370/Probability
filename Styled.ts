@@ -54,12 +54,19 @@ export const NumberOne = styled.TextInput`
     border-radius: 20px;
     width: 60px;
     height: 40px;
+    text-align: center;
+`;
+
+export const Division = styled.View`
+    height: 1px;
+    width: 60px;
 `;
 
 export const NumberTwo = styled.TextInput`
     margin: 10px;
     height: 40px;
     border-radius: 20px;
+    text-align: center;
 `;
 
 export const BottomCalc = styled.TouchableOpacity`
@@ -69,5 +76,15 @@ export const BottomCalc = styled.TouchableOpacity`
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: 0px;
+`;
+
+export const ResetButton = styled.TouchableOpacity`
+  width: 80px;
+  height: 40px;
+  background-color: #191A72; /* Cor do botão */
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 10px; /* Ajuste conforme necessário */
 `;
