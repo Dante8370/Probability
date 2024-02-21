@@ -116,7 +116,8 @@ export default function App() {
           </View>
 
         </View>
-          <View style= {{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+        <View style= {{flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+
         <BottomCalc style={{ backgroundColor: isNightMode ? '#14192e' : '#ad9797', width: 80, marginRight: 20 }} onPress={calculateResult}>
           <Text style={{ color: isNightMode ? 'white' : 'black' }}>Calcular</Text>
         </BottomCalc>
