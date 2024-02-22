@@ -14,6 +14,7 @@ export const Head = styled.View`
     align-items: center;
     border-radius: 0px 0px 40px 40px  ;
     flex-direction: row;
+    margin-top: 30px;
 `;
 
 export const BoxBtnTheme = styled.View`
